@@ -1,0 +1,88 @@
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rectangle {
+    margin: 0 auto;
+}
+
+button {
+    margin: 2em 4em;
+    padding: 69px 27px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+
+/* mobile */
+
+section .mobile h1 {
+    background-color: tomato;
+    border: 2px solid teal;
+    margin: auto 20px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    width: 363px;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -3px
+}
+
+section .mobile #mrectangle {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -90px;
+    overflow: hidden;
+}
+
+section .mobile #mrectangle .mtop {
+    width: 150px;
+    margin: 10px 1px 1px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+section .mobile #mrectangle .mtop button {
+    margin: 1em 2em;
+    padding: 34.5px 13.5px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+}
+
+section .mobile #mrectangle .mbottom {
+    width: 150px;
+    margin: -401px 160px 1px 190px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+section .mobile #mrectangle .mbottom button {
+    margin: 1em 2em;
+    padding: 34.5px 13.5px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+}
